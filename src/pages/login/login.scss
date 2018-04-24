@@ -1,0 +1,19 @@
+page-login {
+    ion-content.content {
+        background-color: color($colors, signcatch, base);
+        color: white;
+
+        .scroll-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .google-login {
+                position: absolute;
+                bottom: 100px;
+                width: 100%;
+            }
+        }
+    }
+}
